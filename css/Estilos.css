@@ -1,0 +1,79 @@
+body{
+	background-image: url('../imagens/sitio2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a{ 
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: monospace;
+	padding: 30px;
+	cursor: pointer;
+	overflow: hidden;
+	transition:  1.5s;
+}
+a:hover{
+	background-color: skyblue;
+	position:sticky ;
+	transform-style:;
+}
+h1{
+	font-weight: bolder;
+	font: 20px, monospace;
+	color:royalblue;
+}
+
+p{
+	font-weight: bolder;
+	font-family: monospace;
+	font-size: 15px;
+}
+div.quadrado{
+	display: inline-block;
+	border-radius: 10px;
+	width: 250px;
+	height: 250px;
+	background-color: skyblue;
+	margin-left: 50px;
+}
+div#q1{
+	background-image: url('../imagens/Darlan.jpg');
+	background-size: cover;
+	padding-bottom: 100px;
+}
+div#q2{
+	background-image: url('../imagens/Kleber.jpg');
+	background-size: cover;
+	padding-bottom: 100px;
+}
+div#q3{
+	background-image: url('../imagens/Alicia.jpg');
+	padding-bottom: 100px;
+	background-size: cover;
+}
+#menu{
+	padding: 30px;
+	background-color: royalblue;
+}
+
+#principal{	
+	width: 100%;
+}
+#conteudo{
+	background: rgba(135, 206, 235, 0.7);
+	padding: 20px;
+	
+}
+#direitos{
+	background-color: slategrey;
+	padding: 10px;
+	text-align: center;
+	font-size: 40px;
+	
+}
+
+.imagem_principal{
+	width: 100%;
+}
