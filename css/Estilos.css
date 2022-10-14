@@ -29,6 +29,7 @@ p{
 	font-weight: bolder;
 	font-family: monospace;
 	font-size: 15px;
+	color: red;
 }
 div.quadrado{
 	display: inline-block;
