@@ -19,7 +19,11 @@
 			main{
 				background-color: whitesmoke;
 				border-radius: 10px;
+				margin: auto;
+				max-width: 800px;
+				min-width: 320px;
 			}
+	
 			.TX{
 				margin-left:950px;
 				margin-top: 20px;
@@ -72,15 +76,25 @@
 	<body>		
 		<main>
 			<h1> ESCOLHA </h1>
-		</main>		
+			
 		
 			
 
-		<a href=""><img src="imagens/Domino.png" class="foto1"></a>
+	<a href=""><img src="imagens/Domino.png" class="foto1"></a>
 
-		<a href="SiteXimbre.html"><img src="imagens/Gude.jpg" class="foto2"></a>
+		<a href="SiteXimbre.html">
+			<picture>
+				<source media="(max-width:250px)" srcset="imagens/Gude-pq.jpg">
+				<img src="imagens/Gude.jpg" class="foto2">
+			</picture>
+
+			
+		</a>
 
 		<h3 class="TX">XIMBRE</h3>
+	</main>
+
+		
 	
 	</body>
 	</html>

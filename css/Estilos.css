@@ -7,18 +7,14 @@ a{
 	text-decoration: none;
 	color: whitesmoke;
 	font-weight: bolder;
-	font-size: 20px;
+	font-size: 17px;
 	font-family: monospace;
-	padding: 30px;
+	padding: 10px;
 	cursor: pointer;
 	overflow: hidden;
-	transition:  1.5s;
+	transition:  .5s;
 }
-a:hover{
-	background-color: skyblue;
-	position:sticky ;
-	transform-style:;
-}
+
 h1{
 	font-weight: bolder;
 	font: 20px, monospace;
@@ -29,7 +25,18 @@ p{
 	font-weight: bolder;
 	font-family: monospace;
 	font-size: 15px;
-	color: red;
+	
+}
+nav{
+	padding: 10px;
+	background-color: darkgreen;
+}
+nav>a:hover{
+	background-color: palegreen;
+}
+header>h1{
+	color: whitesmoke;
+	font-family:optina,sans-serif;
 }
 div.quadrado{
 	display: inline-block;
@@ -54,16 +61,24 @@ div#q3{
 	padding-bottom: 100px;
 	background-size: cover;
 }
+
 #menu{
-	padding: 30px;
-	background-color: royalblue;
+	min-height: 15px;
+	text-align: center;
+	padding: 20px;
+	background-image: linear-gradient(to bottom,seagreen,forestgreen);
 }
 
 #principal{	
-	width: 100%;
+	margin: auto;
+	min-width: 300px;
+	max-width: 1200px;
+	border-bottom-left-radius: 10px ;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0px 0px 10px black;
 }
 #conteudo{
-	background: rgba(135, 206, 235, 0.7);
+	background-color: ghostwhite;
 	padding: 20px;
 	
 }
@@ -76,5 +91,6 @@ div#q3{
 }
 
 .imagem_principal{
-	width: 100%;
+	max-width: 100%;
+	border-radius: 5px;
 }
