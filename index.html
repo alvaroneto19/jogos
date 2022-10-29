@@ -16,42 +16,48 @@
 				text-align: center;
 				font-size: 2.8em;
 			}
-			main{
-				background-color: whitesmoke;
-				border-radius: 10px;
-				margin: auto;
-				max-width: 800px;
-				min-width: 320px;
+			h2{
+				text-align: center;
+				font-family: 2.5em;
+				font-weight: bolder;
+			}
+			img{
+				position: relative;
+				left: 140px;
+			}
+			#menu{
+				background: floralwhite;
+				border-radius: 5px;
+			}
+			#area-principal{
+				border: 1px solid red;
+				width: 100%;
+				margin: 0;
+			}
+			
+	        .domino{
+	          border-radius: 10px;
+              border-color: orange;
+              box-shadow: 1px 1px 1px black;
+
+	        }
+	        .domino:hover{
+	          transform: scale(1.10);
+			  box-shadow: 2px 2px 1px orange;
+	        }
+
+			.gude{
+              border-radius: 10px;
+              border-color: orange;
+              box-shadow: 1px 1px 1px black;
+
+			}
+			.gude:hover{
+				transform: scale(1.10);
+				box-shadow: 2px 2px 1px orange;
 			}
 	
-			.TX{
-				margin-left:950px;
-				margin-top: 20px;
-				font-size: 20px;
-				font-family: Arial,Helvetica,fantasy;
-				color: ghostwhite;
-			}
-			.foto1{
-				width: 250px;
-				margin-left: 300px;
-				margin-top: 100px;
-				border-radius: 10px;
-			}
-			.foto2{
-				width: 250px;
-				margin-left: 300px;
-				margin-top: 100px;
-				border-radius: 10px;
-				border-image: blue;
-				object-fit: cover;
-				transform: .75s;
-				box-shadow: 2px 2px 1px black;
-			}
-			.foto2:hover{
-				transform: scale(1.15);
-				box-shadow: 5px 5px 5px black;
-				
-			}
+			
 			@KeyFrames anim{
 				0%{
 					background: #6a41f5;
@@ -73,28 +79,30 @@
 
 		</style>
 	</head>
-	<body>		
-		<main>
-			<h1> ESCOLHA </h1>
-			
+	<body>
+	<div id="menu">
+		<div id="logo">
+			<h1>Escolha</h1>
+		</div>
+	</div>	
+	<div id="area-principal">
+		<div id="area-imagens">
+			<div class="imagens">
+				<h2> Domino </h2>
+				<a href="">
+				<img src="imagens/Domino.png" width="420px" class="domino">
+			    </a>
+			</div>
+
+			 <div class="imagens">
+				<h2> Ximbre </h2>
+				<a href="SiteXimbre.html">
+				<img src="imagens/Gude.jpg" width="420px" class="gude">
+				</a>
+			</div>
+
+		</div>
+	</div>		
 		
-			
-
-	<a href=""><img src="imagens/Domino.png" class="foto1"></a>
-
-		<a href="SiteXimbre.html">
-			<picture>
-				<source media="(max-width:250px)" srcset="imagens/Gude-pq.jpg">
-				<img src="imagens/Gude.jpg" class="foto2">
-			</picture>
-
-			
-		</a>
-
-		<h3 class="TX">XIMBRE</h3>
-	</main>
-
-		
-	
 	</body>
 	</html>
